@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacy Policy | J.A.R.V.I.S.</title><meta name="description" content="How J.A.R.V.I.S. processes Discord data, what it retains, and how users can request correction or deletion."><link rel="stylesheet" href="styles.css"></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap"><a class="brand" href="index.html">J.A.R.V.I.S.</a><nav aria-label="Main navigation"><a href="index.html">Overview</a><a href="features.html">Core features</a><a href="privacy.html" aria-current="page">Privacy policy</a></nav></div></header>
+<main id="main" class="wrap">
+<p class="eyebrow">How Discord data is handled</p><h1>Privacy policy</h1><p class="date">Effective and last updated: October 7, 2026</p>
+<h2>1. Scope and operator</h2>
+<p>This policy applies to J.A.R.V.I.S., a private, self-hosted Discord bot maintained by its individual operator. It operates in the official MARVEL Strike Force Discord server and the operator's private MARVEL Strike Force alliance server. It is not publicly installable.</p>
+<p>J.A.R.V.I.S. uses Red-DiscordBot and selected community extensions to provide configured server functionality. This policy describes that bot instance. Discord and external services have their own privacy policies.</p>
+<h2>2. Data accessed and collected</h2>
+<p>The bot processes data made available through Discord only as needed for its configured features and within its permissions. Depending on the feature, this can include:</p>
+<ul><li><strong>Identifiers and member information:</strong> Discord user, server, channel, message, and role IDs; usernames, display names, nicknames, membership changes, roles, and permissions.</li><li><strong>Messages and reactions:</strong> message content and associated metadata, including embeds or attachment information where relevant to configured moderation, reports, commands, or channel automation; reactions used for voting and karma.</li><li><strong>Voice participation:</strong> voice-channel state and participation duration used for configured leveling. This does not involve recording voice audio.</li><li><strong>Feature and moderation records:</strong> leveling statistics, karma totals, role-restoration state, warnings, mutes, moderation actions, submitted reports, and related configuration or diagnostic records.</li></ul>
+<h2>3. How data is used</h2>
+<p>Data is used to provide moderation, member and role management, message and channel automation, leveling, notifications, and administrative functionality. For example, the bot reads a counting-channel message to evaluate the next number and receives member join events to perform configured welcome and role behavior.</p>
+<p>J.A.R.V.I.S. is not monetized. Discord data is not sold, used for advertising or marketing profiles, or used to train machine learning or artificial intelligence models.</p>
+<h2>4. Data stored outside Discord</h2>
+<p>Limited Discord-derived data is stored locally on the system running the bot when persistence is needed. Established examples include:</p>
+<ul><li><strong>LevelUp:</strong> Discord IDs, message counts, and time spent in voice channels.</li><li><strong>ReactChannel:</strong> Discord IDs and karma totals based on message upvotes and downvotes.</li><li><strong>RoleTools:</strong> user IDs and configured role information used to restore roles when a member rejoins. User IDs may also appear in bot logs.</li><li><strong>Red core and moderation functionality:</strong> a limited username or nickname history, account-linked actions, moderation records, and content deliberately supplied to features such as member reports.</li></ul>
+<p>The installed Counting extension reports that it does not persistently store data about users. Other features may maintain configuration or records necessary for their operation.</p>
+<p>J.A.R.V.I.S. does not maintain a general archive of ordinary server conversations. Processing a message for filtering, counting, or reactions does not itself mean the message is retained as conversation history. Specific message content may appear in submitted reports or configured moderation logs, including logs posted within Discord.</p>
+<h2>5. Access and sharing</h2>
+<p>The operator administers the bot's local data. Authorized server administrators or moderators may see reports, moderation records, and other feature outputs according to server permissions. Community features such as leaderboards, karma, or role notifications may display relevant results to members in configured channels.</p>
+<p>Data is transmitted to Discord as needed to provide bot responses and server functionality. External feed and notification features retrieve content from their respective services; they are not used to export ordinary Discord conversations.</p>
+<p>Discord API data is not otherwise shared with third parties except with service providers necessary to operate the bot, when expressly directed by the user, or as required by applicable law, consistent with Discord's terms.</p>
+<h2>6. Retention</h2>
+<p>Stored data is retained only while necessary for the feature that uses it. Retention depends on the record and configured functionality; the bot does not apply one fixed retention period to every category. For example, role-restoration data may remain after a member leaves so that configured roles can be restored if they return.</p>
+<p>Data will be promptly deleted when no longer needed, when the bot stops operating, or following a deletion request from the applicable user or Discord, except where applicable law requires retention. Automated deletion tools may not remove every record; the operator handles remaining records through the manual request process below.</p>
+<h2 id="your-data">7. Privacy requests and deletion</h2>
+<p>For questions, correction requests, or deletion requests, contact the operator through Discord. You can send J.A.R.V.I.S. a direct message using <code>-contact</code> followed by your request. If that command is unavailable or you cannot reach the bot, contact an administrator of a server where it operates privately and ask to be connected with the J.A.R.V.I.S. operator.</p>
+<p>Include your Discord user ID and the server or feature involved so the operator can locate the relevant records. Requests may require verification that you control the account. Do not post private information in public channels or GitHub issues.</p>
+<p>Red also provides these commands using J.A.R.V.I.S.'s <code>-</code> prefix:</p>
+<ul><li><code>-mydata whatdata</code> explains Red's data practices.</li><li><code>-mydata 3rdparty</code> provides data statements from loaded community extensions.</li><li><code>-mydata forgetme</code> initiates deletion of data supported by Red and participating extensions. Follow the bot's confirmation instructions.</li></ul>
+<p><code>-mydata forgetme</code> may leave operational or moderation records and data from extensions that do not implement deletion. Contact the operator to request review and deletion of remaining data. These command limitations do not replace the manual deletion process.</p>
+<p>There is no individual opt-out from message processing necessary for configured moderation and channel automation while participating in affected channels. Deletion removes stored data; later interactions may generate new records needed for the applicable feature.</p>
+<h2>8. Documentation website and policy updates</h2>
+<p>This documentation website contains no added analytics, advertising scripts, or tracking cookies. GitHub Pages hosts the site and may process visitor information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. The public documentation repository contains documentation, not the bot's stored user data.</p>
+<p>This policy will be updated when the bot's data practices change. The current version and update date will remain available on this page.</p>
+<hr><p><a href="features.html">Core features</a> · <a href="https://docs.discord.red/en/stable/red_core_data_statement.html">Red's end-user data documentation</a> · <a href="https://discord.com/privacy">Discord's privacy policy</a></p>
+</main>
+<footer class="wrap"><p><a href="https://github.com/kerrigan614/jarvis-discord">Documentation repository</a> · Updated October 7, 2026</p></footer>
+</body></html>
