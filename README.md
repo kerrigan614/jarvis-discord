@@ -14,7 +14,7 @@ This repository contains only public documentation. It does not contain the runn
 
 ## Privacy requests
 
-Contact the operator through Discord using `-contact` followed by your request. If the command is unavailable, contact a server administrator privately and ask to be connected with the J.A.R.V.I.S. operator. See the [privacy policy source](privacy.html) for deletion details. Do not post private information in GitHub issues.
+Send J.A.R.V.I.S. a DM using `-contact` followed by your request. If you cannot reach the bot, contact a server administrator privately and ask to be connected with the operator. Members can also use `-mydata forgetme` in DMs or in the official server's `#access-terminal` channel, subject to confirmation. See the [privacy policy source](privacy.html) for deletion details and limitations, including moderation logs, transcripts, and downloaded copies. Do not post private information in GitHub issues.
 
 ## Publishing and maintenance
 

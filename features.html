@@ -8,20 +8,21 @@
 <p class="eyebrow">What the bot does</p><h1>Core features</h1>
 <p class="intro">J.A.R.V.I.S. supports the day-to-day operation of two MARVEL Strike Force Discord communities. Availability and behavior depend on each server's configuration and channel permissions.</p>
 <h2>Moderation and server safety</h2>
-<ul><li>Automated message filtering and configured message deletion.</li><li>Warnings, mutes, moderation records, and event logging.</li><li>Message cleanup and member reports for moderator review.</li></ul>
+<ul><li>Configured message deletion and cleanup, including timed removal in selected channels.</li><li>Warnings, mutes, moderation records, and member reports for moderator review.</li><li>Message edit and deletion logging in the private <code>#server-logs</code> channel, accessible only to moderators and administrators.</li><li>HTML transcripts of removed messages posted in <code>#server-logs</code> for staff review.</li></ul>
+<p>Message filtering in the official server is handled by Discord's AutoMod rules.</p>
 <h2>Member and role management</h2>
-<ul><li>Welcome and departure notifications triggered by membership changes.</li><li>Automatic roles, configured role restoration when members rejoin, and temporary roles.</li><li>Notifications when member roles change.</li><li>A server information channel displaying total member count.</li></ul>
+<ul><li>An automatic welcome DM when a member joins the official server, plus private member join and leave notifications in <code>#server-logs</code>.</li><li>Restoration of a small, configured set of moderation roles when members rejoin, including @Muted, @Punished, @No Invites Allowed, and @React Restricted.</li><li>Temporary roles, reaction roles, and self-assignable roles through configured dropdown menus.</li><li>Notifications when member roles change.</li><li>A dedicated channel named <code>Members: [count]</code>, updated as members join or leave.</li></ul>
 <h2>Message and channel automation</h2>
-<ul><li>Counting channels that evaluate ordinary messages for the next valid number.</li><li>Automatic reactions and reaction-based karma in designated channels.</li><li>Message voting, announcement publishing, and slowmode controls.</li></ul>
+<ul><li>Counting channels that evaluate ordinary messages for the next valid number, automatically delete out-of-sequence entries, and track configured community counting goals.</li><li>Automatic reactions and reaction-based karma in designated channels.</li><li>Message voting, announcement publishing, and slowmode controls.</li></ul>
 <h2>Community features and notifications</h2>
 <ul><li>Member leveling based on message counts and configured voice-channel participation.</li><li>Giveaway functionality.</li><li>RSS, Reddit, external stream, and YouTube notifications.</li></ul>
 <h2>Administration</h2>
 <p>Administrators use permissions controls, scheduled commands, aliases, and other bot management utilities to configure server behavior. J.A.R.V.I.S. also supports traditional Red-DiscordBot text commands.</p>
 <h2>Discord data needed for these features</h2>
-<p><strong>Membership events and member information</strong> support timely welcome messages, role assignment and restoration, role-change notifications, moderation, and the member counter.</p>
-<p><strong>Message content</strong> allows the bot to evaluate ordinary messages for counting, configured filtering, and other message automation. These features can act without the author invoking an application command. Text commands and submitted reports also use message content.</p>
-<p>The total-member counter measures server membership. The described functionality does not depend on individual online status or activity monitoring.</p>
+<p><strong>Membership events and member information</strong> support timely welcome messages, private join and leave logs, restoration of selected moderation roles, role-change notifications, and the member counter. These features respond to membership changes without requiring a command.</p>
+<p><strong>Message content</strong> allows the bot to evaluate ordinary counting messages and include available content in private message edit and deletion logs and cleanup transcripts. These features use messages that members independently post, edit, or delete. Traditional text commands and submitted reports also use message content.</p>
+<p>The total-member counter measures server membership and does not depend on individual online status.</p>
 <div class="notice"><p>Processing data for a feature and retaining it are different. See the <a href="privacy.html">privacy policy</a> for the data retained by leveling, karma, role restoration, moderation, and other configured functionality.</p></div>
 </main>
-<footer class="wrap"><p><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/kerrigan614/jarvis-discord">Documentation repository</a> · Updated October 7, 2026</p></footer>
+<footer class="wrap"><p><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/kerrigan614/jarvis-discord">Documentation repository</a> · Updated October 8, 2026</p></footer>
 </body></html>
